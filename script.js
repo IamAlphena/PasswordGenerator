@@ -48,21 +48,21 @@ var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","
   
 // }
 
-var number = Math.floor((Math.random() * lowercase.length));
+// var number = Math.floor((Math.random() * lowercase.length));
 
-console.log(lowercase[number])
+// console.log(lowercase[number])
 
-var number = Math.floor((Math.random() * uppercase.length));
+// var number = Math.floor((Math.random() * uppercase.length));
 
-console.log(uppercase[number])
+// console.log(uppercase[number])
 
-var number = Math.floor((Math.random() * numeric.length));
+// var number = Math.floor((Math.random() * numeric.length));
 
-console.log(numeric[number])
+// console.log(numeric[number])
 
-var number = Math.floor((Math.random() * special.length));
+// var number = Math.floor((Math.random() * special.length));
 
-console.log(special[number])
+// console.log(special[number])
 
 // var combo = ()
 
@@ -76,3 +76,18 @@ console.log(special[number])
 // for (i = 0; i < special.length; i++){
   
 // }
+
+
+function generatePassword(){
+//prompt user for length
+
+var length = prompt("How many characters would you like your password?")
+console.log("Length:", length)
+//make sure between 8 and 128
+//prompt w confirm lowercase
+//prompt w confirm uppercase
+//prompt w confirm special
+//prompt w confirm special
+
+  return "password should go here"
+}
