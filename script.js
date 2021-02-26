@@ -31,7 +31,7 @@ generateBtn.addEventListener("click", writePassword);
 
 var lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var numerical = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var numeric = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","[","{","]","}",";",":","/","?","'"];
 
 // var length //(set by prompt)
@@ -56,10 +56,23 @@ var number = Math.floor((Math.random() * uppercase.length));
 
 console.log(uppercase[number])
 
-var number = Math.floor((Math.random() * numerical.length));
+var number = Math.floor((Math.random() * numeric.length));
 
-console.log(numerical[number])
+console.log(numeric[number])
 
 var number = Math.floor((Math.random() * special.length));
 
 console.log(special[number])
+
+// var combo = ()
+
+// console.log(combo)
+
+
+// for slot in array array.length 
+
+// var i 
+
+// for (i = 0; i < special.length; i++){
+  
+// }
