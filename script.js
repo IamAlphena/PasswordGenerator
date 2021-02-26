@@ -31,9 +31,35 @@ generateBtn.addEventListener("click", writePassword);
 
 var lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var numerical = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","[","{","]","}",";",":","/","?","'"];
 
-var length //(set by prompt)
+// var length //(set by prompt)
 
-function
+// var length = prompt("How many characters would you like your password?")
+
+// if (length != null) {
+//   console.log(length)
+// }
+
+
+// for (let index = 0; index < array.length; index++) {
+//   const element = array[index];
+  
+// }
+
+var number = Math.floor((Math.random() * lowercase.length));
+
+console.log(lowercase[number])
+
+var number = Math.floor((Math.random() * uppercase.length));
+
+console.log(uppercase[number])
+
+var number = Math.floor((Math.random() * numerical.length));
+
+console.log(numerical[number])
+
+var number = Math.floor((Math.random() * special.length));
+
+console.log(special[number])
