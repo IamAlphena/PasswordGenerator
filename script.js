@@ -13,7 +13,10 @@
 // THEN a password is generated that matches the selected criteria
 // WHEN the password is generated
 // THEN the password is either displayed in an alert or written to the page
-
+var lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var numeric = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","[","{","]","}",";",":","/","?","'"];
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -29,14 +32,24 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-var lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var numeric = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","[","{","]","}",";",":","/","?","'"];
 
-// var length //(set by prompt)
+function generatePassword(){
+  //prompt user for length
+  
+  var length = prompt("How many characters would you like your password?")
+  console.log("Length:", length)
+  //make sure between 8 and 128
 
-// var length = prompt("How many characters would you like your password?")
+  //prompt w confirm lowercase
+  //prompt w confirm uppercase
+  //prompt w confirm special
+  //prompt w confirm special
+  
+    return "password should go here"
+  }
+
+//return arr[Math.floor(Math.random() * arr.length)];
+
 
 // if (length != null) {
 //   console.log(length)
@@ -77,17 +90,3 @@ var special = ["!","@","#","$","%","^","&","*","(",")","-","=","_","+","`","~","
   
 // }
 
-
-function generatePassword(){
-//prompt user for length
-
-var length = prompt("How many characters would you like your password?")
-console.log("Length:", length)
-//make sure between 8 and 128
-//prompt w confirm lowercase
-//prompt w confirm uppercase
-//prompt w confirm special
-//prompt w confirm special
-
-  return "password should go here"
-}
