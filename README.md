@@ -5,7 +5,7 @@ Secure Password generator that creates a password to the user's specifications
 
 ## Preview
 
-![Preview Image](assets/images/Generator.PNG)
+![Preview Image](https://github.com/IamAlphena/PasswordGenerator/blob/main/Assets/Images/Generator.PNG?raw=true)
 
 ## Links
 Visit the site at : 
