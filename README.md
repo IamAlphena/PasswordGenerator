@@ -8,7 +8,7 @@ Secure Password generator that creates a password to the user's specifications
 ![Preview Image](https://github.com/IamAlphena/PasswordGenerator/blob/main/Assets/Images/Generator.PNG?raw=true)
 
 ## Links
-Visit the site at : 
+Visit the site at : https://iamalphena.github.io/PasswordGenerator/index.html
 
 ## Objectives
 Create a functional password generatior meeting criteria:  
